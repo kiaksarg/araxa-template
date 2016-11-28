@@ -52,30 +52,37 @@ header {
     background-color: #6d717a;
     color: #fff;
     padding: 10px 0px;
-    <<<<<<< HEAD
 }
 
 .basket-icon {
-    background-color: #62b965;
     color: #fff;
     padding: 7px;
+    margin-right: 5px;
+}
+
+.basket-icon-part {
+    background-color: #62b965;
+    width: 30%;
+    border-radius: 0 4px 4px 0;
 }
 
 .basket {
-    margin: 20px;
-    width: 195px;
+    margin: 30px;
+    width: 190px;
 }
 
 .basket-textpart {
     background-color: #4caf50;
     padding: 7px;
-    min-height: 43px;
+    min-height: 42px;
     color: #fff;
+    border-radius: 4px 0 0 4px;
+    width: 70%
 }
 
 .basket-text {
-    margin-right: 28px;
-    font-size: 16px
+    margin-right: 10px;
+    font-size: 16px;
 }
 
 .basket-count {
