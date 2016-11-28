@@ -19,13 +19,17 @@ a:hover {
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .header-custom {
+    font-size: 15px;
     padding: 1px 0 0;
 }
 
-.header-custom a {
+.header-custom li a {
     color: #7f848f;
-    font-size: 15px;
 }
 
 .header-custom li a:hover,
@@ -34,11 +38,57 @@ a:hover,
     color: #ef3f3e;
 }
 
+.header-custom {
+    color: #7f848f;
+    padding: 1px 0 0;
+}
+
 header {
     min-height: 98px;
     border-bottom: 1px solid #eff0f2
 }
 
-.img-header {
-    margin: 10px;
+.footer-panel1 {
+    background-color: #6d717a;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.basket-icon {
+    background-color: #62b965;
+    color: #fff;
+    padding: 7px;
+}
+
+.basket {
+    margin: 20px;
+    width: 195px;
+}
+
+.basket-textpart {
+    background-color: #4caf50;
+    padding: 7px;
+    min-height: 43px;
+    color: #fff;
+}
+
+.basket-text {
+    margin-right: 28px;
+    font-size: 16px
+}
+
+.basket-count {
+    font-family: arial;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 2px 2px 0 15px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5fbf63;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
 }
