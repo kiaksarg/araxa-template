@@ -20,11 +20,23 @@ a:hover {
 }
 
 .header-custom {
-    color: #7f848f;
     padding: 1px 0 0;
+}
+
+.header-custom a {
+    color: #7f848f;
+    font-size: 15px;
+}
+
+.header-custom li a:hover {
+    color: #ef3f3e;
 }
 
 header {
     min-height: 98px;
     border-bottom: 1px solid #eff0f2
+}
+
+.img-header {
+    margin: 10px;
 }
