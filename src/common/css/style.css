@@ -28,7 +28,9 @@ a:hover {
     font-size: 15px;
 }
 
-.header-custom li a:hover {
+.header-custom li a:hover,
+a:hover,
+.header-custom li a:focus {
     color: #ef3f3e;
 }
 
