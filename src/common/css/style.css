@@ -63,18 +63,18 @@ header {
 .basket-icon-part {
     background-color: #62b965;
     width: 30%;
+    min-height: 46px;
     border-radius: 0 4px 4px 0;
 }
 
 .basket {
-    margin: 30px;
     width: 190px;
 }
 
 .basket-textpart {
     background-color: #4caf50;
     padding: 7px;
-    min-height: 42px;
+    min-height: 46px;
     color: #fff;
     border-radius: 4px 0 0 4px;
     width: 70%
