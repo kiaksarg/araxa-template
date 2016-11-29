@@ -2422,43 +2422,43 @@ pre code {
         right: auto;
     }
     .col-sm-offset-12 {
-        margin-left: 100%;
+        margin-right: 100%;
     }
     .col-sm-offset-11 {
-        margin-left: 91.66666667%;
+        margin-right: 91.66666667%;
     }
     .col-sm-offset-10 {
-        margin-left: 83.33333333%;
+        margin-right: 83.33333333%;
     }
     .col-sm-offset-9 {
-        margin-left: 75%;
+        margin-right: 75%;
     }
     .col-sm-offset-8 {
-        margin-left: 66.66666667%;
+        margin-right: 66.66666667%;
     }
     .col-sm-offset-7 {
-        margin-left: 58.33333333%;
+        margin-right: 58.33333333%;
     }
     .col-sm-offset-6 {
-        margin-left: 50%;
+        margin-right: 50%;
     }
     .col-sm-offset-5 {
-        margin-left: 41.66666667%;
+        margin-right: 41.66666667%;
     }
     .col-sm-offset-4 {
-        margin-left: 33.33333333%;
+        margin-right: 33.33333333%;
     }
     .col-sm-offset-3 {
-        margin-left: 25%;
+        margin-right: 25%;
     }
     .col-sm-offset-2 {
-        margin-left: 16.66666667%;
+        margin-right: 16.66666667%;
     }
     .col-sm-offset-1 {
-        margin-left: 8.33333333%;
+        margin-right: 8.33333333%;
     }
     .col-sm-offset-0 {
-        margin-left: 0;
+        margin-right: 0;
     }
 }
 
