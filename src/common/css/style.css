@@ -62,6 +62,61 @@ header {
     color: #fff;
     padding: 10px 0px;
 }
+.footer-panel2{
+    background-color: #f7f8fa;
+}
+.footer-panel2 .title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-panel2 .item{
+    margin-top: 20px;
+}
+
+.social-icon{
+    width: 40px;
+    height: 40px;
+}
+.social-section{
+    margin-top: 30px;
+}
+
+.subscribe-email{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid #c9d1d7;
+    border-radius: 2px;
+}
+.dk-button{
+    padding: 9px 30px;
+    background-color: #3ca3f4;
+    color: #fff;
+}
+.footer-panel3{
+    background-color: #fff;
+}
+.footer-panel3 .title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-panel3 .item{
+    margin-top: 20px;
+}
+.footer-panel4{
+    background-color: #646871;
+    color: #bbb;
+}
+.footer-panel4 a{
+    color: #fff;
+}
+.footer-panel5{
+    background-color: #fff;
+}
+.text-multi-row{
+    line-height: 160%;
+}
 
 .basket-icon {
     color: #fff;
@@ -140,3 +195,4 @@ header {
     color: #ef3f3e;
     background: 0 0;
 }
+
