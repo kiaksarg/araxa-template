@@ -104,6 +104,19 @@ header {
 .footer-panel3 .item{
     margin-top: 20px;
 }
+.footer-panel4{
+    background-color: #646871;
+    color: #bbb;
+}
+.footer-panel4 a{
+    color: #fff;
+}
+.footer-panel5{
+    background-color: #fff;
+}
+.text-multi-row{
+    line-height: 160%;
+}
 
 .basket-icon {
     color: #fff;
