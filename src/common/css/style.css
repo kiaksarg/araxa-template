@@ -196,3 +196,40 @@ header {
     background: 0 0;
 }
 
+/*slider effect*/
+.carousel .item{
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+}
+.carousel .active.left, .carousel .active.right{
+    left:0;
+    opacity:0;
+    z-index: 2;
+}
+.carousel .carousel-control{
+    opacity: 1;
+}
+.carousel .next, .carousel .prev{
+    left:0;
+    opacity:1;
+    z-index: 1;
+}
+.carousel .carousel-control{
+    visibility: hidden;
+}
+.carousel:hover .carousel-control{
+    visibility:visible;
+    cursor: pointer;
+}
+
+/*slider style*/
+.slider-padding{
+    padding: 0px;
+}
+.carousel-inner img{
+    max-height: 70vh;
+    width: 100%;
+}
