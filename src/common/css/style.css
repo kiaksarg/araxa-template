@@ -92,7 +92,12 @@ header {
 .news-panel{
     margin-top: 10px;
 }
-
+.item .title .date{
+    color: #b0b0b0;
+}
+.item .title .text{
+    line-height: 20px;
+}
 .subscribe-email{
     width: 100%;
     font-size: 18px;
