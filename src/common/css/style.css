@@ -57,7 +57,7 @@ a:hover {
     padding: 1px 0 0;
 }
 
-header {
+.main-header {
     min-height: 98px;
     background: white;
 }
@@ -67,70 +67,86 @@ header {
     color: #fff;
     padding: 10px 0px;
 }
-.footer-panel2{
+
+.footer-panel2 {
     background-color: #f7f8fa;
 }
-.footer-panel2 .title{
+
+.footer-panel2 .title {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.footer-panel2 .item{
+.footer-panel2 .item {
     margin-top: 20px;
 }
 
-.social-icon{
+.social-icon {
     width: 40px;
     height: 40px;
 }
-.social-section{
+
+.social-section {
     margin-top: 30px;
 }
-.banner{
+
+.banner {
     width: 100%;
 }
-.news-panel{
+
+.news-panel {
     margin-top: 10px;
 }
-.item .title .date{
+
+.item .title .date {
     color: #b0b0b0;
 }
-.item .title .text{
+
+.item .title .text {
     line-height: 20px;
 }
-.subscribe-email{
+
+.subscribe-email {
     width: 100%;
     font-size: 18px;
     padding: 5px;
     border: 1px solid #c9d1d7;
     border-radius: 2px;
 }
-.dk-button{
+
+.dk-button {
     padding: 9px 30px;
     background-color: #3ca3f4;
     color: #fff;
 }
-.footer-panel3{
+
+.footer-panel3 {
     background-color: #fff;
 }
-.footer-panel3 .title{
+
+.footer-panel3 .title {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.footer-panel3 .item{
+
+.footer-panel3 .item {
     margin-top: 20px;
 }
-.footer-panel4{
+
+.footer-panel4 {
     background-color: #646871;
     color: #bbb;
 }
-.footer-panel4 a{
+
+.footer-panel4 a {
     color: #fff;
 }
-.footer-panel5{
+
+.footer-panel5 {
     background-color: #fff;
 }
-.text-multi-row{
+
+.text-multi-row {
     line-height: 160%;
 }
 
@@ -212,40 +228,197 @@ header {
     background: 0 0;
 }
 
+
 /*slider effect*/
-.carousel .item{
+
+
+/*
+.carousel .item {
     transition: opacity 1s;
     -webkit-transition: opacity 1s;
     -o-transition: opacity 1s;
     -moz-transition: opacity 1s;
     -ms-transition: opacity 1s;
 }
-.carousel .active.left, .carousel .active.right{
-    left:0;
-    opacity:0;
+
+.carousel .active.left,
+.carousel .active.right {
+    left: 0;
+    opacity: 0;
     z-index: 2;
 }
-.carousel .carousel-control{
+
+.carousel .carousel-control {
     opacity: 1;
 }
-.carousel .next, .carousel .prev{
-    left:0;
-    opacity:1;
+
+.carousel .next,
+.carousel .prev {
+    left: 0;
+    opacity: 1;
     z-index: 1;
 }
-.carousel .carousel-control{
+
+.carousel .carousel-control {
     visibility: hidden;
 }
-.carousel:hover .carousel-control{
-    visibility:visible;
+
+.carousel:hover .carousel-control {
+    visibility: visible;
     cursor: pointer;
-}
+}*/
+
 
 /*slider style*/
-.slider-padding{
+
+.slider-padding {
     padding: 0px;
 }
-.carousel-inner img{
+
+.carousel-inner img {
     max-height: 70vh;
     width: 100%;
 }
+
+
+/* carousel */
+
+.media-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+    margin-top: 30px;
+}
+
+
+/* Previous button  */
+
+.media-carousel .carousel-control.left {
+    left: -12px;
+    background-image: none;
+    background: none repeat scroll 0 0 #fff;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+
+/* Next button  */
+
+.media-carousel .carousel-control.right {
+    right: -12px !important;
+    background-image: none;
+    background: none repeat scroll 0 0 #fff;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
+
+/* Changes the position of the indicators */
+
+.media-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+
+/* Changes the colour of the indicators */
+
+.media-carousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+.media-carousel .carousel-indicators .active {
+    background: #333333;
+}
+
+.media-carousel img {
+    width: 250px;
+    height: 100px
+}
+
+
+/* End carousel */
+
+
+/* post carousel */
+
+.dk-box {
+    background-color: #fff;
+    border: 1px solid #ebeced;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    /* -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1); */
+    -ms-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.custom-h {
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    height: 38px;
+    line-height: 38px;
+    padding-right: 15px;
+    margin: 0;
+}
+
+.Post-carousel {
+    background-color: #f7f9fa;
+    height: 40px;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.boxmore {
+    display: block;
+    float: left;
+    padding: 15px 0 15px 15px;
+    line-height: 0;
+}
+
+.boxmore a {
+    color: #3ca3f4;
+    font-size: 12px;
+    margin-right: 7px;
+}
+
+.boxmore i {
+    color: #3ca3f4;
+    font-size: 10px;
+    margin-right: 7px;
+}
+
+.cover::after {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    content: "";
+    display: block;
+    height: 256px;
+    left: -17px;
+    position: absolute;
+    top: 0;
+    width: 45px;
+}
+
+.icon-black {
+    color: #000
+}
+
+
+/*End post carousel */
