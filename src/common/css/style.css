@@ -18,6 +18,7 @@
 
 * {
     font-family: IranSans;
+    font-size: 15px;
 }
 
 body {
@@ -79,6 +80,7 @@ a:hover {
 
 .footer-panel2 {
     background-color: #f7f8fa;
+    padding-bottom: 40px;
 }
 
 .footer-panel2 .title {
@@ -91,8 +93,12 @@ a:hover {
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
+}
+
+.mobile-icon{
+    width: 170px;
 }
 
 .social-section {
@@ -118,19 +124,25 @@ a:hover {
 .subscribe-email {
     width: 100%;
     font-size: 18px;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #c9d1d7;
     border-radius: 2px;
 }
 
 .dk-button {
-    padding: 9px 30px;
-    background-color: #3ca3f4;
+    padding: 12px 40px;
+    background-color: #039BE5;
     color: #fff;
+}
+
+.dk-button:hover {
+    color: #fff;
+    background-color: #0288D1;
 }
 
 .footer-panel3 {
     background-color: #fff;
+    padding-bottom: 40px;
 }
 
 .footer-panel3 .title {
@@ -150,6 +162,12 @@ a:hover {
 .footer-panel4 a {
     color: #fff;
 }
+@media(max-width:767px) {
+    .footer-panel4 .footer-panel4-links{
+        text-align: center;
+    }
+}
+
 
 .footer-panel5 {
     background-color: #fff;
@@ -414,3 +432,20 @@ a:hover {
 
 
 /*End post carousel */
+
+
+.white-link{
+    color: #fff;
+}
+
+.white-link:hover{
+    color: #8c8c8c;
+}
+
+.gray-link{
+    color: #777;
+}
+
+.gray-link:hover{
+    color: #000;
+}

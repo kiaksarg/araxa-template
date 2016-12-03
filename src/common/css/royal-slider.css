@@ -21,6 +21,7 @@
     background-color: rgba(0,0,0,.6);
     color: #fff;
     text-align: center;
+    cursor: pointer;
 }
 
 .royal-slider .button.active{
