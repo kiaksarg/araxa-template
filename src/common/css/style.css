@@ -157,6 +157,7 @@ a:hover {
 .footer-panel4 {
     background-color: #646871;
     color: #bbb;
+    padding: 20px 0px;
 }
 
 .footer-panel4 a {
@@ -171,6 +172,7 @@ a:hover {
 
 .footer-panel5 {
     background-color: #fff;
+    padding: 20px 0px;
 }
 
 .text-multi-row {
