@@ -25,17 +25,26 @@ body {
     color: #4d4d4d;
 }
 
-a:hover {
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
     text-decoration: none;
 }
 
-a {
-    text-decoration: none;
-}
+
+/*a {
+    
+}*/
 
 .header-custom {
-    font-size: 15px;
+    margin-top: 5px;
     padding: 1px 0 0;
+    color: #929782;
+    margin-left: 2px;
+    font-size: 12px;
+    display: inline-block;
 }
 
 .header-custom li a {
@@ -414,6 +423,42 @@ a:hover {
     position: absolute;
     top: 0;
     width: 45px;
+}
+
+@media (max-width: 768px) {
+    .cover::after {
+        background: #fff none repeat scroll 0 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        content: "";
+        display: block;
+        height: 0px;
+        left: -17px;
+        position: absolute;
+        top: 0;
+        width: 0px;
+    }
+    .media-carousel .carousel-control.left {
+        left: -12px;
+        background: none repeat scroll 0 0;
+        /*border: 4px solid #FFFFFF;*/
+        /*border-radius: 23px 23px 23px 23px;*/
+        height: 40px;
+        width: 40px;
+        margin-top: 165px;
+        margin-left: 10px;
+    }
+    /* Next button  */
+    .media-carousel .carousel-control.right {
+        right: -12px !important;
+        background-image: none;
+        background: none repeat scroll 0 0;
+        /*border: 4px solid #FFFFFF;*/
+        border-radius: 23px 23px 23px 23px;
+        height: 40px;
+        width: 40px;
+        margin-top: 165px;
+        margin-right: 10px;
+    }
 }
 
 .icon-black {
