@@ -475,10 +475,6 @@ a:hover {
         margin-top: 365px;
         margin-right: 10px;
     }
-    .productItem-img {
-        display: block;
-        margin: auto;
-    }
 }
 
 .icon-black {
@@ -497,6 +493,8 @@ a:hover {
 .productItem-img {
     width: 130px;
     height: 130px;
+    display: block;
+    margin: auto;
 }
 
 .old-price {
