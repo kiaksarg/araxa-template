@@ -17,7 +17,7 @@
 }
 
 .royal-slider .button{
-    padding: 20px;
+    padding: 1.5%;
     background-color: rgba(0,0,0,.6);
     color: #fff;
     text-align: center;
@@ -27,4 +27,36 @@
 .royal-slider .button.active{
     background-color: #fff;
     color: #000;
+}
+.royal-slider .button.active:after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 50%;
+    margin-right: -5px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+
+.royal-slider .backward-button{
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    left: 4%;
+    display: none;
+}
+.royal-slider .forward-button{
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    right: 4%;
+    display: none;
+}
+
+.royal-slider .fa-custom{
+    font-size: 74px;
 }
