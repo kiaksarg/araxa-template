@@ -28,13 +28,21 @@
     background-color: #fff;
     color: #000;
 }
+.royal-slider .button.active:after{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 50%;
+    margin-right: -5px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
 
 .royal-slider .backward-button{
     color: #fff;
     position: absolute;
-    width: 19px;
-    height: 33px;
-    font-size: 40px;
     top: 45%;
     cursor: pointer;
     left: 4%;
@@ -43,11 +51,12 @@
 .royal-slider .forward-button{
     color: #fff;
     position: absolute;
-    width: 19px;
-    height: 33px;
-    font-size: 40px;
     top: 45%;
     cursor: pointer;
     right: 4%;
     display: none;
+}
+
+.royal-slider .fa-custom{
+    font-size: 74px;
 }
