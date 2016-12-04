@@ -44,8 +44,12 @@ a:visited {
     padding: 1px 0 0;
     color: #929782;
     margin-left: 2px;
-    font-size: 12px;
+    font-size: 12px !important;
     display: inline-block;
+}
+
+.header-custom a {
+    font-size: 12px !important;
 }
 
 .header-custom li a {
@@ -182,14 +186,18 @@ a:hover {
 .basket-icon {
     color: #fff;
     padding: 7px;
-    margin-right: 5px;
+    margin-right: 8px;
 }
 
 .basket-icon-part {
     background-color: #62b965;
     width: 30%;
-    min-height: 46px;
-    border-radius: 0 4px 4px 0;
+    min-height: 38px;
+    border-radius: 0 3px 3px 0;
+}
+
+.basket-icon-part i {
+    font-size: 24px;
 }
 
 .basket {
@@ -198,16 +206,22 @@ a:hover {
 
 .basket-textpart {
     background-color: #4caf50;
-    padding: 7px;
-    min-height: 46px;
+    /*padding: 6px;*/
+    min-height: 38px;
     color: #fff;
-    border-radius: 4px 0 0 4px;
-    width: 70%
+    border-radius: 3px 0 0 3px;
+    width: 70%;
+    padding: 0 23px;
+}
+
+.basket-textpart span {
+    font-size: 14px;
 }
 
 .basket-text {
-    margin-right: 10px;
-    font-size: 16px;
+    /*margin-right: 15px;*/
+    text-align: center;
+    line-height: 38px;
 }
 
 .basket-count {
@@ -215,7 +229,7 @@ a:hover {
     width: 24px;
     height: 24px;
     float: left;
-    margin: 2px 2px 0 15px;
+    margin: 7px 7px 0 0;
     display: block;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -245,6 +259,12 @@ a:hover {
 
 #menu {
     color: black;
+    padding-right: 0px;
+    font-size: 13px;
+}
+
+#menu a {
+    font-size: 13px;
 }
 
 .navbar-nav-custom li a {
@@ -255,6 +275,35 @@ a:hover {
     line-height: 20px;
     color: #ef3f3e;
     background: 0 0;
+}
+
+.navbar-nav-custom {
+    padding-right: 0px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-search {
+    height: 38px;
+    border-radius: 0px;
+    font-size: 13px
+    /*padding-right: 0px;*/
+}
+
+.button-search {
+    border-radius: 0px !important
+}
+
+.remove-padding-right {
+    padding-right: 0px;
+}
+
+.remove-padding-left {
+    padding-left: 0px;
+    max-width: 23%;
 }
 
 
@@ -441,6 +490,24 @@ a:hover {
     width: 45px;
 }
 
+.cover::before {
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0);
+    -webkit-box-shadow: 120px 0 150px 0 rgba(255, 255, 255, .53);
+    -moz-box-shadow: 120px 0 150px 0 rgba(255, 255, 255, .53);
+    box-shadow: 120px 0 150px 0 rgba(255, 255, 255, .53);
+    content: "";
+    height: 100%;
+    left: 25px;
+    opacity: .4;
+    position: absolute;
+    top: 0;
+    width: 25px;
+    z-index: 1;
+}
+
 @media (max-width: 991px) {
     .cover::after {
         background: #fff none repeat scroll 0 0;
@@ -451,6 +518,9 @@ a:hover {
         left: -17px;
         position: absolute;
         top: 0;
+        width: 0px;
+    }
+    .cover::before {
         width: 0px;
     }
     .media-carousel .carousel-control.left {
