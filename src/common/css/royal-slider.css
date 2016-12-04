@@ -17,7 +17,7 @@
 }
 
 .royal-slider .button{
-    padding: 20px;
+    padding: 1.5%;
     background-color: rgba(0,0,0,.6);
     color: #fff;
     text-align: center;
@@ -27,4 +27,27 @@
 .royal-slider .button.active{
     background-color: #fff;
     color: #000;
+}
+
+.royal-slider .backward-button{
+    color: #fff;
+    position: absolute;
+    width: 19px;
+    height: 33px;
+    font-size: 40px;
+    top: 45%;
+    cursor: pointer;
+    left: 4%;
+    display: none;
+}
+.royal-slider .forward-button{
+    color: #fff;
+    position: absolute;
+    width: 19px;
+    height: 33px;
+    font-size: 40px;
+    top: 45%;
+    cursor: pointer;
+    right: 4%;
+    display: none;
 }
