@@ -125,7 +125,7 @@ a:hover {
     line-height: 20px;
 }
 
-.news-panel .panel-heading{
+.news-panel .panel-heading {
     background-image: none;
     background-color: #f7f9fa;
     border: none;
@@ -295,7 +295,8 @@ a:hover {
 .input-search {
     height: 38px;
     border-radius: 0px;
-    font-size: 13px
+    font-size: 13px;
+    border: 1px solid #c9d1d7;
     /*padding-right: 0px;*/
 }
 
@@ -303,13 +304,22 @@ a:hover {
     border-radius: 0px !important
 }
 
-.remove-padding-right {
+
+/*.remove-padding-right {
     padding-right: 0px;
 }
 
 .remove-padding-left {
     padding-left: 0px;
     max-width: 23%;
+}*/
+
+.width-custom {
+    width: 180px;
+}
+
+.form-group-custom {
+    margin-right: 20px;
 }
 
 
