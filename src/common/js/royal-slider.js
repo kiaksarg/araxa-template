@@ -87,6 +87,6 @@ $( document ).ready(function() {
             next_id = current_id + 1;
         }
         changeSliderPicture(next_id);
-    }, 5000);
+    }, 10000);
 });
 
