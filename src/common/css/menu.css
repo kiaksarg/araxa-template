@@ -1,0 +1,223 @@
+/* Reset */
+
+.nav,
+.nav a,
+.nav ul,
+.nav li,
+.nav div {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.layer3 {
+    background-color: #fcfcfc;
+}
+
+.products-Appliance {
+    background-image: url("../img/home-appliance.png");
+    background-repeat: no-repeat;
+    background-position: left
+}
+
+.products-Digital-mobile {
+    background-image: url("../img/mobile.png");
+    background-repeat: no-repeat;
+    background-position: left
+}
+
+.products-e-readers {
+    background-image: url("../img/tablet-ebook-reader.png");
+    background-repeat: no-repeat;
+    background-position: left
+}
+
+.products-audiovisual-equipment {
+    background-image: url("../img/video-audio-entertainment.png");
+    background-repeat: no-repeat;
+    background-position: left
+}
+
+.nav li {
+    list-style: none;
+}
+
+
+/* Menu Container */
+
+.nav {
+    display: inline-block;
+    position: relative;
+    cursor: default;
+    z-index: 500;
+    min-width: 980px;
+}
+
+
+/* Menu List */
+
+.nav>li {
+    display: block;
+    float: right;
+    position: static;
+    /*very important do not remove*/
+}
+
+
+/* Menu Links */
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    z-index: 510;
+    /*height: 44px;*/
+    /*padding: 0px;*/
+    /*line-height: 44px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    /*color: #4d4d4d;*/
+    /*-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;*/
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.nav>li>a:after {
+    content: url(../img/chevron-arrow-down.png);
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 18px;
+    float: left;
+}
+
+.nav>li:hover>a {
+    background: #ffffff;
+}
+
+.nav>li:hover>a:after {
+    content: url(../img/chevron-arrow-up.png);
+    width: 7px;
+    height: 18px;
+    /*background: url(../img/chevron-arrow-up.png) no-repeat 0px 5px;*/
+}
+
+.nav>li:first-child>a {
+    border-right: none;
+}
+
+
+/* Menu Dropdown */
+
+.nav>li>div {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 42px;
+    left: -2px;
+    right: 0px;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    background-color: #ffffff;
+    -webkit-transition: all .3s ease .15s;
+    -moz-transition: all .3s ease .15s;
+    -o-transition: all .3s ease .15s;
+    -ms-transition: all .3s ease .15s;
+    transition: all .3s ease .15s;
+    border-bottom: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+}
+
+.nav>li:hover>div {
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+}
+
+
+/* Menu Content Styles */
+
+.nav .nav-column {
+    float: right;
+    width: 19%;
+    padding: 2.5%;
+    text-align: right;
+    height: 300px;
+}
+
+.nav .nav-column .head {
+    margin: -15px -10px 10px 0;
+    line-height: 18px;
+    font-size: 13px;
+    color: #16c1f3;
+}
+
+.nav .nav-column li a {
+    display: block;
+    line-height: 26px;
+    font-size: 13px;
+    color: #4d4d4d;
+}
+
+.nav .nav-column li a:hover {
+    color: #666666;
+}
+
+.inner {
+    float: right;
+    height: 10px;
+    top: -20px;
+    right: -25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layer2 {
+    height: 44px;
+}
+
+.inner>li>div {
+    top: 40px;
+    min-height: 200px;
+    background-color: #fcfcfc;
+}
+
+.inner>li:hover>a {
+    height: 36px;
+    color: #ef3f3e;
+    border-bottom: 2px solid #ee3e3e;
+    background: url(../img/arrow-red.png) no-repeat bottom center;
+}
+
+.inner>li>a {
+    display: block;
+    padding: 0 25px;
+    line-height: 43px;
+    position: relative;
+}
+
+
+/*
+.menu-img {
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    margin-bottom: 0px;
+    left: 0px;
+    max-width: 300px;
+    max-height: 300px;
+}*/
+
+.border {
+    border-right: 1px solid #e2e2e2 !important;
+    /*border-left:1px solid #e2e2e2 !important;*/
+}

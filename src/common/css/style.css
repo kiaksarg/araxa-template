@@ -278,7 +278,7 @@ a:hover {
 }
 
 .navbar-nav-custom li a:hover {
-    line-height: 20px;
+    /*line-height: 20px;*/
     color: #ef3f3e;
     background: 0 0;
 }
