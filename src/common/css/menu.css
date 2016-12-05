@@ -92,7 +92,6 @@
 }
 
 .nav>li>a:after {
-    /*content: url(../img/chevron-arrow-down.png);*/
     content: "\f078";
     font-family: FontAwesome;
     margin-right: 15px;
