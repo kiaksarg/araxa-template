@@ -92,9 +92,12 @@
 }
 
 .nav>li>a:after {
-    content: url(../img/chevron-arrow-down.png);
-    margin-right: 5px;
-    margin-top: 5px;
+    /*content: url(../img/chevron-arrow-down.png);*/
+    content: "\f078";
+    font-family: FontAwesome;
+    margin-right: 15px;
+    color: #8c8c8c;
+    /*margin-top: 5px;*/
     height: 18px;
     float: left;
 }
@@ -104,9 +107,13 @@
 }
 
 .nav>li:hover>a:after {
-    content: url(../img/chevron-arrow-up.png);
-    width: 7px;
+    content: "\f077";
+    /*width: 7px;*/
+    font-family: FontAwesome;
+    color: #8c8c8c;
+    margin-right: 15px;
     height: 18px;
+    float: left;
     /*background: url(../img/chevron-arrow-up.png) no-repeat 0px 5px;*/
 }
 
