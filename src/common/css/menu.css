@@ -15,10 +15,6 @@
     text-decoration: none;
 }
 
-.layer3 {
-    background-color: #fcfcfc;
-}
-
 .products-Appliance {
     background-image: url("../img/home-appliance.png");
     background-repeat: no-repeat;
@@ -127,10 +123,8 @@
 .nav>li>div {
     position: absolute;
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     top: 42px;
-    left: -2px;
-    right: 0px;
     opacity: 0;
     visibility: hidden;
     overflow: hidden;
@@ -142,6 +136,20 @@
     transition: all .3s ease .15s;
     border-bottom: 1px solid #e1e1e1;
     border-left: 1px solid #e1e1e1;
+}
+
+.layer3 {
+    background-color: #fcfcfc;
+    width: 1025px;
+    left: -20px;
+    right: -4px;
+    ;
+}
+
+.layer2 {
+    height: 44px;
+    left: -29px;
+    right: -13px;
 }
 
 .nav>li:hover>div {
@@ -188,12 +196,8 @@
     margin-left: auto;
 }
 
-.layer2 {
-    height: 44px;
-}
-
 .inner>li>div {
-    top: 40px;
+    top: 36px;
     min-height: 200px;
     background-color: #fcfcfc;
 }
