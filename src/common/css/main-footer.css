@@ -45,9 +45,20 @@
     color: #fff;
 }
 
-.dk-button:hover {
+.dk-button:hover , .dk-button:active , .dk-button:focus {
     color: #fff;
     background-color: #0288D1;
+}
+
+.failed-button {
+    padding: 12px 40px;
+    background-color: #f44336;
+    color: #fff;
+}
+
+.failed-button:hover , .failed-button:active , .failed-button:focus {
+    color: #fff;
+    background-color: #d32f2f;
 }
 
 .footer-panel3 {

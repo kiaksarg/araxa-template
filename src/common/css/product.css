@@ -1,0 +1,260 @@
+.breadcrumb-custom{
+    margin: 0 5%;
+    border-radius: 5px;
+}
+.breadcrumb{
+    background-color: #fff;
+}
+
+.breadcrumb > li + li:before {
+    color: #ccc;
+    content: "\f0d9";
+    font-family: FontAwesome;
+    padding: 0 5px;
+}
+
+.details{
+    background-color: #fff;
+    margin: 0 5%;
+    border-radius: 5px;
+    padding: 1% 0;
+}
+
+.gallery-thumbnail{
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+}
+
+.gallery-active-picture{
+    width: 100%;
+    height: 40vh;
+}
+
+.gallery-tumbnails{
+    margin-top: 15px;
+}
+
+.name-section{
+    margin-top: 20px;
+    background-color: #f5f6f7;
+    padding: 15px;
+}
+
+.form-filter{
+    margin-top: 10px;
+}
+
+.filter-select{
+    background-color: #fafbfc;
+    border: 1px solid #dfe5e8;
+    font-size: 12px;
+    height: auto;
+    position: relative;
+    width: 350px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    padding: 10px 20px;
+}
+
+.price-layout{
+    margin-top: 20px;
+}
+
+.price-layout .icon{
+    color: #3c763d;
+    font-size: 22px;
+}
+
+.price-layout .text1{
+    font-size: 22px;
+    width: auto;
+}
+.price-layout .price2{
+    font-size: 22px;
+    width: auto;
+    color: #4caf50;
+}
+.price-layout .text2{
+    font-size: 17px;
+    width: auto;
+    color: #4caf50;
+}
+.add-to-card{
+    margin-top: 30px;
+    background-color: #62b965;
+    padding: 10px 35px;
+    color: #fff;
+    transition: all 150ms ease 0s;
+}
+.add-to-card:hover{
+    background-color: #5CAD5F;
+}
+
+.description{
+    background-color: #fff;
+    margin: 1% 5%;
+    border-radius: 5px;
+    padding: 1% 0;
+}
+
+.description .title{
+    font-size: 25px;
+    margin-top: 1%;
+    margin-right: 3%;
+}
+.description .content{
+    margin: 1% 3%;
+    line-height: 32px;
+}
+
+.features{
+    background-color: #f5f6f7;
+    margin: 1% 5%;
+    border-radius: 5px;
+}
+
+.features .nav-tabs li{
+    display: block;
+    font: normal 13px/55px yekan;
+    height: 55px;
+    padding: 8px 28px;
+    position: relative;
+    color: #707580;
+    text-align: center;
+    border-left: 1px solid #e3e3e3;
+    /* border-top: 1px solid #E0E0E0; */
+    transition: 200ms ease;
+    -ms-transition: 200ms ease;
+    -moz-transition: 200ms ease;
+    -webkit-transition: 200ms ease;
+    box-shadow: 0 2px 0 transparent inset;
+    -webkit-box-shadow: 0 2px 0 transparent inset;
+}
+
+.features .nav-tabs li a{
+    color: #707580;
+}
+
+.features .nav-tabs li.active a{
+    color: #2196f3;
+}
+
+.features .nav-tabs li.active{
+    background: #fff;
+    color: #2196f3;
+    box-shadow: 0 2px 0 #2196f3 inset, 0 2px 0 #fff;
+    -webkit-box-shadow: 0 2px 0 #2196f3 inset, 0 2px 0 #fff;
+}
+.features .nav-tabs li a:hover{
+    background: none;
+}
+
+.features .nav-tabs li a{
+    background: none;
+    border: none;
+}
+.features .nav-tabs li.active a{
+    background: none;
+    border: none;
+}
+
+.features .nav-tabs li:hover a{
+    background-color: #f5f6f7;
+}
+.features .nav-tabs li.active:hover a{
+    background: none;
+}
+
+.features .tab-content{
+    background-color: #fff;
+    padding-bottom: 1%;
+}
+
+#details .title{
+    padding-top: 1%;
+    padding-right: 15px;
+    font-size: 23px;
+}
+
+.detail-row{
+    padding-right: 15px;
+    padding-top: 1%;
+}
+
+.detail-title{
+    background-color: #f0f1f2;
+    padding: 15px 20px;
+    border-radius: 1px;
+}
+.details-value{
+    background-color: #f7f9fa;
+    padding: 15px 20px;
+    border-radius: 1px;
+}
+
+#comments{
+    padding: 1% 3%;
+}
+
+.comments-list{
+    margin-top: 15px;
+}
+
+.comments-list .comment .header{
+    background-color: #f5f6f7;
+    padding: 1% 1%;
+}
+
+.comments-list .comment .header .name{
+   color: #4d4d4d;
+}
+
+.comments-list .comment .header .date{
+    color: #919191;
+    font-size: 12px;
+}
+
+.comments-list .comment .header .comment-icon{
+    font-size: 55px;
+    color: #646871;
+}
+
+.comments-list .comment .content{
+    background: #fafbfc;
+    padding: 37px 15px;
+    border: 1px solid #edeeef;
+}
+
+.comments-list .comment .content .text{
+
+}
+.send-methods{
+    margin: 2%;
+}
+.send-methods .send-method{
+    margin-top: 1%;
+}
+
+.send-methods .send-method .header{
+    background-color: #e8e9eb;
+    padding: 1%;
+}
+.send-methods .send-method .content{
+    background-color: #f5f6f7;
+    padding: 1%;
+}
+
+.ltr{
+    direction: ltr;
+}
+
+.rate{
+    padding: 1%;
+}
+
+.rate .title-current{
+    margin-top: 10px;
+}

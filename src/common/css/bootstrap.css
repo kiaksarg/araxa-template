@@ -7022,6 +7022,7 @@ button.close {
     cursor: pointer;
     background: transparent;
     border: 0;
+    float: left;
 }
 
 .modal-open {

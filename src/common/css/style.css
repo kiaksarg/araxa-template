@@ -529,3 +529,7 @@ a:hover {
 .gray-link:hover {
     color: #000;
 }
+
+.modal-header{
+    background-color: #f0f1f2;
+}

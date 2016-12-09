@@ -87,7 +87,7 @@
     padding-right: 23px;
 }
 
-.nav>li>a:after {
+.navbar-nav-custom>li>a:after {
     content: "\f078";
     font-family: FontAwesome;
     margin-right: 15px;
@@ -101,7 +101,7 @@
     background: #ffffff;
 }
 
-.nav>li:hover>a:after {
+.navbar-nav-custom>li:hover>a:after {
     content: "\f077";
     /*width: 7px;*/
     font-family: FontAwesome;
