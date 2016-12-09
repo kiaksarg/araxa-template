@@ -533,3 +533,19 @@ a:hover {
 .modal-header{
     background-color: #f0f1f2;
 }
+
+
+.breadcrumb-custom{
+    margin: 0 5%;
+    border-radius: 5px;
+}
+.breadcrumb{
+    background-color: #fff;
+}
+
+.breadcrumb > li + li:before {
+    color: #ccc;
+    content: "\f0d9";
+    font-family: FontAwesome;
+    padding: 0 5px;
+}
