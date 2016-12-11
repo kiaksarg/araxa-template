@@ -549,3 +549,16 @@ a:hover {
     font-family: FontAwesome;
     padding: 0 5px;
 }
+
+.no-padding-margin{
+    padding: 0px;
+    margin: 0px;
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+
+.no-margin{
+    margin: 0px;
+}

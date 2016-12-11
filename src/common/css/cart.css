@@ -1,0 +1,109 @@
+.container-fluid{
+    padding-bottom: 20px;
+}
+
+.content{
+    background-color: #fff;
+    margin: 0 5%;
+    border-radius: 5px;
+    padding-top: 40px;
+}
+.title b{
+    font-size: 22px;
+}
+
+.title i{
+    color: cornflowerblue;
+}
+
+.carts{
+    margin: 0 1%;
+    padding-bottom: 1%;
+}
+
+.carts .shop-name i{
+    color: #c7254e;
+}
+
+.cart{
+    margin-top: 5%;
+}
+
+.header{
+    background-color: #f7f9fa;
+    font-size: 13px;
+    height: 48px;
+    color: #666666;
+}
+
+.header .item{
+    border: 2px solid #f0f1f2;
+    border-radius: 0 2px 0 0;
+    height: 100%;
+    padding: 1% 0;
+}
+
+.product{
+    background-color: #fff;
+}
+
+.product .item{
+    border: 2px solid #f0f1f2;
+    border-radius: 0 2px 0 0;
+}
+
+.product .name{
+    margin-top: 1%;
+}
+
+.product .name a{
+}
+
+.product .picture{
+    margin-top: 1%;
+}
+
+.product .delete{
+    background-color: #ffedee;
+    height: 100px;
+    padding-top: 10%;
+}
+
+.product .delete i{
+    padding: 0px;
+    color: #c7254e;
+}
+
+.product .product{
+    margin-top: 5%;
+}
+
+.product .total-price{
+    margin-top: 5%;
+}
+
+.product .count-select{
+    width: 50px;
+    margin-top: 5%;
+    padding: 0px;
+    padding-right: 15px;
+}
+
+.buy-total-price{
+    margin-top: 1%;
+    border: 1px solid #c0f0c1;
+    padding: 1%;
+    background-color: #f7fff7;
+    color: #4caf50;
+}
+
+.next-btn-section{
+    margin-top: 1%;
+}
+
+
+@media screen and (max-width: 767px){
+    .table-responsive>.table>thead>tr>th, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tfoot>tr>td {
+        white-space: normal;
+    }
+}
