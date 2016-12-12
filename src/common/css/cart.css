@@ -7,6 +7,7 @@
     margin: 0 5%;
     border-radius: 5px;
     padding-top: 40px;
+    padding-bottom: 30px;
 }
 .title b{
     font-size: 22px;
@@ -117,4 +118,72 @@
     display: inline-block;
     width: 250px;
     margin-right: 20px;
+}
+
+/*send methods*/
+.send-methods{
+    margin-top: 20px;
+}
+
+.send-methods th{
+    border: 1px solid #c0f0c1 !important;
+    color: #777777;
+    padding: 1% 0 !important;
+}
+
+.send-methods td{
+    border: 1px solid #c0f0c1 !important;
+    padding: 1% 0 !important;
+}
+
+.send-methods td.select-radio.active{
+    background-color: #f7fff7;
+}
+.send-methods td.select-radio{
+    background-color: #fff;
+    padding-top: 2.5% !important;
+}
+
+.send-methods .desc-block{
+    padding-right: 10px !important;
+}
+
+.send-methods .price-block{
+    padding-right: 10px !important;
+}
+
+.send-methods .price-block .price-title{
+    display: inline-block;
+}
+.send-methods .price-block .price{
+    display: inline-block;
+}
+
+
+/*transferees*/
+.padding-right{
+    /*padding-right: 10px!important;*/
+}
+
+.transferees{
+    margin-top: 20px;
+}
+
+.transferees th{
+    border: 1px solid #c0f0c1 !important;
+    color: #777777;
+    padding: 1% 0 !important;
+}
+
+.transferees td{
+    border: 1px solid #c0f0c1 !important;
+    padding: 1% 1% !important;
+}
+
+.transferees td.select-radio.active{
+    background-color: #f7fff7;
+}
+.transferees td.select-radio{
+    background-color: #fff;
+    padding-top: 1.5% !important;
 }
