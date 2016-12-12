@@ -187,3 +187,49 @@
     background-color: #fff;
     padding-top: 1.5% !important;
 }
+
+/*validate products*/
+.validate-products{
+    margin-top: 2%;
+}
+
+.validate-products th{
+    background-color: #f7f9fa;
+    color: #666666;
+    border: 1px solid #f0f1f2 !important;
+    padding: 1% 0 !important;
+}
+
+.validate-products td{
+    border: 1px solid #f0f1f2 !important;
+}
+
+.price-box{
+    border: 1px solid #f0f1f2;
+    border-radius: 2px 2px 0 0;
+    margin: 0 .5%;
+    padding: 1% 1%;
+}
+.price-box.success{
+    background: #f7fff7;
+    color: #4caf50!important;
+}
+
+.information-box{
+    margin: 0 .5%;
+}
+
+.information-box div{
+    border: 1px solid #f0f1f2;
+    border-radius: 2px 2px 0 0;
+    padding: 1% 1%;
+    height: 60px;
+}
+
+.information-box .icon{
+    font-size: 25px;
+    color: #8c8c8c;
+}
+.information-box b{
+    color: #4caf50 !important;
+}
