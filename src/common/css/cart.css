@@ -102,8 +102,19 @@
 }
 
 
+/*in style baraye div name ast . ke dar resolution paein too shekam div baadi nare*/
 @media screen and (max-width: 767px){
     .table-responsive>.table>thead>tr>th, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tfoot>tr>td {
         white-space: normal;
     }
+}
+
+.attribute{
+    margin-top: 15px;
+}
+
+.attribute-select{
+    display: inline-block;
+    width: 250px;
+    margin-right: 20px;
 }
