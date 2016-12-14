@@ -233,3 +233,51 @@
 .information-box b{
     color: #4caf50 !important;
 }
+
+
+/*pay page*/
+.amount-payable{
+    border: 1px solid #f0f1f2 !important;
+    background-color: #f7fff7;
+    margin: 2% 1%;
+    padding: 1% 1%;
+}
+
+.pay-methods-section{
+    padding: 0 2%;
+}
+
+.pay-methods{
+    border: 1px solid #c0f0c1 !important;
+}
+.pay-methods td{
+    border: none !important;
+}
+
+.pay-methods .first-col{
+    background-color: #fff;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.pay-methods .first-col input{
+    cursor: pointer !important;
+}
+
+.pay-methods .first-col.active{
+    background-color: #f7fff7;
+    vertical-align: middle;
+}
+
+.pay-methods .pay-method-radio{
+
+}
+
+.pay-methods .second-col{
+    border-right: 1px solid #c0f0c1 !important;
+    padding-right: 2%;
+}
+
+.pay-methods .description{
+    margin-top: 10px;
+}
+

@@ -562,3 +562,40 @@ a:hover {
 .no-margin{
     margin: 0px;
 }
+
+/*custom radio button*/
+input[type='radio']:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #d4dbde;
+    cursor: pointer;
+}
+
+input[type='radio']:checked:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 8px solid #2196f3;
+    cursor: pointer;
+}
+.radio.disabled label,input{
+    cursor: default !important;
+}
+.radio.disabled label,input:after{
+    cursor: default !important;
+}
