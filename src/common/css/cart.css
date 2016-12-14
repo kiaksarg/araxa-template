@@ -281,3 +281,36 @@
     margin-top: 10px;
 }
 
+.pre-pay-right .title{
+    color: #4caf50!important;
+}
+.pre-pay-right .text{
+    line-height: 30px;
+}
+.pre-pay-right .text b{
+    color: #ff6b6b;
+}
+.pre-pay-left .title{
+    background-color: #f7f9fa;
+    border: 1px solid #f0f1f2;
+    border-radius: 2px 2px 0 0;
+    color: #777;
+    padding-top: 3%;
+}
+.pre-pay-left .item{
+    background-color: #fff;
+    border: 1px solid #f0f1f2;
+    border-radius: 2px 2px 0 0;
+    color: #777;
+    padding: 3% 0;
+    height: 60px;
+}
+
+.pre-pay-left i{
+    font-size: 24px;
+    margin-top: 5px;
+    color: #848A98;
+}
+.pre-pay-left p{
+    margin-top: 5px;
+}
