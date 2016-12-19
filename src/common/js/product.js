@@ -12,10 +12,6 @@ $( document ).ready(function() {
     $('#myTabs li:eq(0) a').tab('show');
 });
 
-$('#feature-tab a').click(function (e) {
-    e.preventDefault();
-    $(this).tab('show');
-});
 
 $(function(){
     $("#current-rate").rateYo({
@@ -40,6 +36,3 @@ $(function(){
     });
 });
 
-$('.responsive-tabs').responsiveTabs({
-    accordionOn: ['xs', 'sm'] // xs, sm, md, lg
-});

@@ -1,0 +1,62 @@
+.araxa-tab{
+    background-color: #f5f6f7;
+    margin: 1% 5%;
+    border-radius: 5px;
+}
+
+.araxa-tab .nav-tabs li{
+    display: block;
+    font: normal 13px/55px yekan;
+    height: 55px;
+    padding: 8px 28px;
+    position: relative;
+    color: #707580;
+    text-align: center;
+    border-left: 1px solid #e3e3e3;
+    /* border-top: 1px solid #E0E0E0; */
+    transition: 200ms ease;
+    -ms-transition: 200ms ease;
+    -moz-transition: 200ms ease;
+    -webkit-transition: 200ms ease;
+    box-shadow: 0 2px 0 transparent inset;
+    -webkit-box-shadow: 0 2px 0 transparent inset;
+}
+
+.araxa-tab .nav-tabs li a{
+    color: #707580;
+}
+
+.araxa-tab .nav-tabs li.active a{
+    color: #2196f3;
+}
+
+.araxa-tab .nav-tabs li.active{
+    background: #fff;
+    color: #2196f3;
+    box-shadow: 0 2px 0 #2196f3 inset, 0 2px 0 #fff;
+    -webkit-box-shadow: 0 2px 0 #2196f3 inset, 0 2px 0 #fff;
+}
+.araxa-tab .nav-tabs li a:hover{
+    background: none;
+}
+
+.araxa-tab .nav-tabs li a{
+    background: none;
+    border: none;
+}
+.araxa-tab .nav-tabs li.active a{
+    background: none;
+    border: none;
+}
+
+.araxa-tab .nav-tabs li:hover a{
+    background-color: #f5f6f7;
+}
+.araxa-tab .nav-tabs li.active:hover a{
+    background: none;
+}
+
+.araxa-tab .tab-content{
+    background-color: #fff;
+    padding-bottom: 1%;
+}

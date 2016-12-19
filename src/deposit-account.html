@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>آراکسا</title>
+    <title>login</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,21 +11,12 @@
     <link href="common/css/main-footer.css" rel="stylesheet">
     <link rel="stylesheet" href="common/css/bootstrap-responsive-tabs.css">
     <link rel="stylesheet" href="common/css/font-awesome.min.css">
-    <link rel="stylesheet" href="common/css/product.css">
-    <!--this link must before rate css-->
-    <link rel="stylesheet" href="common/css/araxa-tab.css">
-    <link rel="stylesheet" href="common/css/jquery.rateyo.min.css">
+    <link rel="stylesheet" href="common/css/cart.css">
     <link rel="stylesheet" href="common/css/menu.css">
+    <link rel="stylesheet" href="common/css/araxa-tab.css">
 
 
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
-
 <body>
 <header class="main-header">
     <div class="container-fluid">
@@ -2084,245 +2074,204 @@
     </div>
 </nav>
 
-
 <section class="container-fluid">
 
     <div class="row breadcrumb-custom">
         <ol class="breadcrumb">
             <i class="fa fa-dot-circle-o" aria-hidden="true"></i> &nbsp;&nbsp;
             <li><a href="#">آراکسا</a></li>
-            <li><a href="#">زیبایی و سلامت</a></li>
-            <li><a href="#">لوازم شخصی برقی</a></li>
-            <li class="active">اتوی مو</li>
+            <li class="active">واریز به حساب</li>
         </ol>
     </div>
 
-    <div class="row details">
-        <div class="col-md-3">
-            <div class="row center-block">
-                <img class="img-responsive gallery-active-picture" src="common/img/Promax-5117-Hair-Styler.JPG" alt="">
-            </div>
-            <div class="row gallery-tumbnails">
-                <div class="col-xs-3 gallery-thumbnail-section" data-img="common/img/Promax-5117-Hair-Styler.JPG">
-                    <img class="img-responsive img-thumbnail gallery-thumbnail" src="common/img/Promax-5117-Hair-Styler.JPG" alt="">
-                </div>
-                <div class="col-xs-3 gallery-thumbnail-section" data-img="common/img/video-audio-entertainment.png">
-                    <img class="img-responsive img-thumbnail gallery-thumbnail" src="common/img/video-audio-entertainment.png" alt="">
-                </div>
-                <div class="col-xs-3 gallery-thumbnail-section" data-img="common/img/Overwatch-Featured-60x60.jpg">
-                    <img class="img-responsive img-thumbnail gallery-thumbnail" src="common/img/Overwatch-Featured-60x60.jpg" alt="">
-                </div>
-                <div class="col-xs-3 gallery-thumbnail-section" data-img="common/img/home-appliance.png">
-                    <img class="img-responsive img-thumbnail gallery-thumbnail" src="common/img/home-appliance.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="col-md-9">
-            <div class="name-section">
-                <p class="product-name">اتو مو Babylis مدل ST50E</p>
-            </div>
-            <form class="form-filter" action="#" method="post">
-                <div class="form-group">
-                    <label for="color">انتخاب رنگ</label>
-                    <select name="sample" id="color" class="form-control filter-select">
-                        <option value="1" selected>قرمز</option>
-                        <option value="2">صورتی</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="size">انتخاب سایز</label>
-                    <select name="sample2" id="size" class="form-control filter-select">
-                        <option value="1" selected>xl</option>
-                        <option value="2">xxl</option>
-                    </select>
-                </div>
-            </form>
-            <div class="row">
-                <div class="price-layout">
-                    <b class="icon">
-                        <i class="fa fa-money" aria-hidden="true"></i>
-                    </b>
-                    <b class="text1">قیمت برای شما: </b>
-                    <b class="price2">175,000</b>
-                    <b class="text2">تومان</b>
-                </div>
-            </div>
-            <button type="button" class="add-to-card">افزودن به سبد خرید</button>
-        </div>
-    </div>
+    <div class="row content deposit-content">
+        <div class="col-md-12 deposit-col">
+            <div class="row araxa-tab">
+                <ul class="nav nav-tabs responsive-tabs" role="tablist" id="araxa-tab">
+                    <li role="presentation" class="active"><a href="#card" aria-controls="home" role="tab" data-toggle="tab">انتقال وجه کارت به کارت&nbsp;&nbsp;&nbsp;<i class="fa fa-id-card" aria-hidden="true"></i></a></li>
+                    <li role="presentation"><a href="#account" aria-controls="profile" role="tab" data-toggle="tab">واریز به حساب&nbsp;&nbsp;&nbsp;<i class="fa fa-university" aria-hidden="true"></i></a></li>
+                </ul>
 
-    <div class="row description">
-        <p class="title">معرفی اجمالی محصول</p>
-        <p class="content">
-            هر چه تلاش می‌کنم موهایم باز هم مثل قبل لخت و بی‌حالت است. این جمله شکایتی همیشگی است که برخی افراد به زبان می‌آورند. اگرچه موهای لخت و بی‌حالت زیباست، ولی تجربه‌ی داشتن موهای حالت‌دار یا فر برای عده‌ای آرزوست. اما حالت‌دارکردن موهای لخت بدون وسایل لازم به‌راحتی محقق نمی‌شود. ابزارهای مختلفی برای حل این مشکل طراحی‌ شده‌اند که به‌عنوان‌مثال می‌توان به حالت‌دهنده‌ی مو اشاره کرد. حالت‌دهنده‌ی EH-KE30 ساخت شرکت پاناسونیک (Panasonic) ابزاری است که سه سَری دارد و برای خشک‌کردن و حالت دادن به مو طراحی شده است. سری پیچی برای صاف کردن یا ایجاد فر درشت استفاده می‌شود. سری برس‌دار برای شانه‌کردن و خشک‌کردن موها به کار می‌رود. همچنین برای خشک‌کردن موها از ریشه، می‌توان سری دمنده‌ی هوا را به کار گرفت. این محصول از فناوری تولید یون بهره می‌گیرد که به‌این وسیله با تولید میلیون‌ها یون منفی و شکسته شدن سریع‌تر مولکول‌های آب، موها با سرعت بیشتری خشک می‌شوند. همچنین بعد از خشک شدن موها، جذب رطوبت مو را پایین می‌آورد و باعث می‌شود موها نرم و براق باقی بمانند و مدت‌زمان بیشتری حالت خود را حفظ کنند. محافظت از چربی داخل تارهای مو از دیگر ویژگی‌های فناوری تولید یون است که در نتیجه‌ی آن آسیب به موها در حین حالت دادن موها کاهش می‌یابد. با توجه به موارد ذکر شده، اگر به یک حالت‌دهنده برای مصارف خانگی نیاز دارید، EH-KE30 می‌تواند انتخاب مناسبی برای شما باشد.
-        </p>
-    </div>
-
-    <div class="row araxa-tab">
-        <ul class="nav nav-tabs responsive-tabs" role="tablist" id="araxa-tab">
-            <li role="presentation" class="active"><a href="#details" aria-controls="home" role="tab" data-toggle="tab">مشخصات فنی&nbsp;&nbsp;&nbsp;<i class="fa fa-info" aria-hidden="true"></i></a></li>
-            <li role="presentation"><a href="#comments" aria-controls="profile" role="tab" data-toggle="tab">نظرات کاربران&nbsp;&nbsp;&nbsp;<i class="fa fa-comments" aria-hidden="true"></i></a></li>
-            <li role="presentation"><a href="#rates" aria-controls="messages" role="tab" data-toggle="tab">امتیازات&nbsp;&nbsp;&nbsp;<i class="fa fa-id-badge" aria-hidden="true"></i></a></li>
-            <li role="presentation"><a href="#send_methods" aria-controls="messages" role="tab" data-toggle="tab">جزییات ارسال&nbsp;&nbsp;&nbsp;<i class="fa fa-id-badge" aria-hidden="true"></i></a></li>
-        </ul>
-
-        <!-- Tab panes -->
-        <div class="tab-content">
-            <div role="tabpanel" class="tab-pane fade in active" id="details">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="title">مشخصات فنی</p>
-                    </div>
-                </div>
-                <div class="row detail-row">
-                    <div class="col-md-4">
-                        <h5 class="detail-title">توان</h5>
-                    </div>
-                    <div class="col-md-4">
-                        <h5 class="details-value">1000 وات</h5>
-                    </div>
-                </div>
-                <div class="row detail-row">
-                    <div class="col-md-4">
-                        <h5 class="detail-title">توان</h5>
-                    </div>
-                    <div class="col-md-4">
-                        <h5 class="details-value">1000 وات</h5>
-                    </div>
-                </div>
-                <div class="row detail-row">
-                    <div class="col-md-4">
-                        <h5 class="detail-title">توان</h5>
-                    </div>
-                    <div class="col-md-4">
-                        <h5 class="details-value">1000 وات</h5>
-                    </div>
-                </div>
-            </div>
-            <div role="tabpanel" class="tab-pane fade" id="comments">
-                <div class="add-comment">
-                    <p><b>شما هم می توانید در مورد این کالا نظر بدهید.</b></p>
-                    <p>برای ثبت نظرات، نقد و بررسی شما لازم است ابتدا وارد حساب کاربری خود شوید.</p>
-                    <button type="button" class="btn dk-button">نظر خود را بنویسید</button>
-                </div>
-                <div class="comments-list">
-                    <div class="comment">
-                        <div class="row header">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="card">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="row deposit-price">
+                                            <div class="col-md-8">
+                                                مبلغ قابل پرداخت:
+                                            </div>
+                                            <div class="col-md-4">
+                                                <b>52,500</b>تومان
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="row bank">
+                                            <div class="col-md-2 text-center radio-section">
+                                                <input class="" type="radio">
+                                            </div>
+                                            <div class="col-md-10 information-section">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <img src="common/img/mellat.png" alt="" width="60" height="60">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <p>6037-9918-2126-3708</p>
+                                                        <p>بانک ملت - به نام حسین احمدزاده</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="col-md-1">
-                                <i class="fa fa-comment-o comment-icon" aria-hidden="true"></i>
+                                <div class="vertical-line"></div>
                             </div>
-                            <div class="col-md-11">
-                                <h4 class="name">نازنین فتاحی</h4>
-                                <p class="date">۲۹ مرداد ۱۳۹۵</p>
+                            <div class="col-md-5 deposit-field-item">
+                                <div class="row item">
+                                    <div class="col-md-4">
+                                        چهار رقم پایانی کارت شما
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="row item">
+                                    <div class="col-md-4">
+                                        شماره پیگیری
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="row item">
+                                    <div class="col-md-4">
+                                        مبلغ واریز شده
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" aria-describedby="basic-addon2">
+                                            <span class="input-group-addon" id="basic-addon2">تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row content">
-                            <div class="col-md-12">
-                                <p class="text">من اینو دارم سبک هست و گرما و شدت باد مناسبی داره بخاطر سیستم یون سازش موها رو نرم میکنه قبلا رمینگتون برسی داشتم سنگین بود دستم خسته میشد</p>
+                        <div class="row">
+                            <div class="col-md-2 col-md-offset-9">
+                                <button class="btn dk-button">ثبت اطلاعات</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="account">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="row deposit-price">
+                                            <div class="col-md-8">
+                                                مبلغ قابل پرداخت:
+                                            </div>
+                                            <div class="col-md-4">
+                                                <b>52,500</b>تومان
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <div class="row bank">
+                                            <div class="col-md-2 text-center radio-section">
+                                                <input class="" type="radio">
+                                            </div>
+                                            <div class="col-md-10 information-section">
+                                                <div class="row">
+                                                    <div class="col-md-4">
+                                                        <img src="common/img/mellat.png" alt="" width="60" height="60">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <p>4525489528</p>
+                                                        <p>بانک ملت - به نام حسین احمدزاده</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-1">
+                                <div class="vertical-line"></div>
+                            </div>
+                            <div class="col-md-5 deposit-field-item">
+                                <div class="row item">
+                                    <div class="col-md-4">
+                                        شماره پیگیری
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                                <div class="row item">
+                                    <div class="col-md-4">
+                                        مبلغ واریز شده
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" aria-describedby="basic-addon2">
+                                            <span class="input-group-addon" id="basic-addon2">تومان</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 col-md-offset-9">
+                                <button class="btn dk-button">ثبت اطلاعات</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div role="tabpanel" class="tab-pane fade" id="rates">
-                <div class="row rate">
-                    <div class="col-md-12">
-                        <p class="title"><b>شما هم می توانید به این کالا امتیاز بدهید.</b></p>
-                        <p>برای ثبت امتیاز لازم است ابتدا وارد حساب کاربری خود شوید.</p>
-                        <button type="button" class="btn dk-button" data-toggle="modal" data-target="#myModal">امتیاز خود را ثبت کنید</button>
+            <div class="row your-pays">
+                <div class="col-md-12">
+                    <div class="row title">
+                        <div class="col-md-12">
+                            <i class="fa fa-caret-left" aria-hidden="true"></i>&nbsp;&nbsp;<b>جزئیات پرداخت‌های شما:</b>
+                        </div>
                     </div>
-                    <div class="col-md-12 title-current">
-                        <p>امتیاز فعلی کالا</p>
-                    </div>
-                    <div class="col-md-2 ltr">
-                        <div id="current-rate"></div>
-                    </div>
-                </div>
-            </div>
-            <div role="tabpanel" class="tab-pane fade" id="send_methods">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="send-methods">
-                            <div class="send-method">
-                                <div class="row header">
-                                    <div class="col-md-8">
-                                        پست پیشتاز
-                                    </div>
-                                    <div class="col-md-4">
-                                        ۱۰,۰۰۰ تومان
-                                    </div>
-                                </div>
-                                <div class="row content">
-                                    <div class="col-md-12">
-                                        ارسال به سراسر کشور
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="send-method">
-                                <div class="row header">
-                                    <div class="col-md-8">
-                                        پست پیشتاز
-                                    </div>
-                                    <div class="col-md-4">
-                                        ۱۰,۰۰۰ تومان
-                                    </div>
-                                </div>
-                                <div class="row content">
-                                    <div class="col-md-12">
-                                        ارسال به سراسر کشور
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="send-method">
-                                <div class="row header">
-                                    <div class="col-md-8">
-                                        پست پیشتاز
-                                    </div>
-                                    <div class="col-md-4">
-                                        ۱۰,۰۰۰ تومان
-                                    </div>
-                                </div>
-                                <div class="row content">
-                                    <div class="col-md-12">
-                                        ارسال به سراسر کشور
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="row">
+                        <div class="col-md-12 table-responsive">
+                            <table class="table">
+                                <tr>
+                                    <th class="col-md-1 text-center">ردیف</th>
+                                    <th class="col-md-2 text-center">عنوان بانک</th>
+                                    <th class="col-md-2 text-center">چهار رقم پایانی کارت</th>
+                                    <th class="col-md-2 text-center">شماره پیگیری</th>
+                                    <th class="col-md-2 text-center">مبلغ واریز شده</th>
+                                    <th class="col-md-3 text-center">وضعیت</th>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-1 text-center">1</td>
+                                    <td class="col-md-2 text-center">ملت</td>
+                                    <td class="col-md-2 text-center">3708</td>
+                                    <td class="col-md-2 text-center">455454</td>
+                                    <td class="col-md-2 text-center"><b>32,233</b> تومان</td>
+                                    <td class="col-md-3 text-center">در انتظار حسابداری</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
         </div>
     </div>
 
 </section>
-
-<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">ثبت امتیاز</h4>
-            </div>
-            <div class="modal-body">
-                <p>امتیاز خود را در مورد این کالا ثبت کنید</p>
-                <div class="ltr">
-                    <div id="user-rate"></div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn failed-button" data-dismiss="modal">بستن</button>
-                <button type="button" class="btn dk-button">ذخیره امتیاز</button>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-
-<!--footer-->
 <footer>
     <div class="container-fluid">
         <div class="row footer-panel1">
@@ -2538,14 +2487,10 @@
 
 <script src="common/js/jquery-3.1.1.min.js"></script>
 <script src="common/js/bootstrap.js"></script>
-
-<script src="common/js/site.js"></script>
-<script src="common/js/jquery.rateyo.min.js"></script>
 <script src="common/js/jquery.bootstrap-responsive-tabs.min.js"></script>
-<script src="common/js/product.js"></script>
+<script src="common/js/site.js"></script>
+<script src="common/js/cart.js"></script>
 <script src="common/js/araxa-tab.js"></script>
 
-
 </body>
-
 </html>

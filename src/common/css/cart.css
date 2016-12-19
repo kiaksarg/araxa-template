@@ -314,3 +314,86 @@
 .pre-pay-left p{
     margin-top: 5px;
 }
+
+/*deposit-account*/
+.vertical-line{
+    height:200px;
+    width:0px;
+    /*margin-top: 10px;*/
+    position:relative;
+    border-left:2px solid #f0f1f2;
+}
+
+.deposit-content{
+    padding: 0px;
+}
+
+.deposit-col{
+    padding: 0px;
+    margin: 0px;
+}
+
+.araxa-tab{
+    margin: 0px!important;
+}
+
+.tab-content{
+    padding-top: 8%;
+}
+
+.deposit-price{
+    border: 1px solid #c0f0c1;
+    background-color: #f7fff7;
+    padding: 3% 1%;
+}
+
+.bank{
+    border: 1px solid #f0f1f2;
+    margin-top: 6%;
+}
+
+.bank .radio-section{
+    border-left: 1px solid #f0f1f2;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.bank .radio-section input{
+    margin-top: 70%;
+}
+
+.bank .information-section{
+    padding-top: 4%;
+}
+
+.deposit-field-item .item{
+    margin-top: 20px;
+}
+
+
+.your-pays{
+    margin: 1% 2%;
+}
+.your-pays .title b{
+    font-size: 17px;
+}
+
+.your-pays .table-responsive{
+    margin-top: 2%;
+}
+
+.your-pays .table th{
+    background-color: #f7f9fa;
+    color: #666;
+    font-size: 13px;
+    height: 48px;
+    border: 1px solid #f0f1f2;
+    vertical-align: middle;
+}
+.your-pays .table td{
+    color: #666;
+    font-size: 13px;
+    height: 48px;
+    border: 1px solid #f0f1f2;
+    vertical-align: middle;
+}
