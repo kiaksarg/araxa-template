@@ -1,0 +1,138 @@
+.container-fluid{
+    padding-bottom: 20px;
+}
+
+.content{
+    background-color: #fff;
+    margin: 0 5%;
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.user-information-section{
+    margin: 0 2%;
+}
+
+.user-information .icon{
+    background-color: #1192b0;
+    height: 40px;
+    width: 70px;
+    margin-right: 60px;
+    border-radius: 3px;
+}
+.user-information .icon i{
+    color: rgba(255,255,255,.9);
+    font-size: 30px;
+}
+.user-information .title{
+    background-color: #666;
+    color: #fff;
+    margin-right: 10px;
+    vertical-align: middle;
+    height: 40px;
+    border-radius: 3px;
+    line-height: 40px;
+}
+
+.user-information-section .user-information-items{
+    margin: 2% 3%;
+}
+
+.user-information-section .item{
+    color: #205a8c;
+}
+
+.user-information-section .item p{
+    font-size: 11px;
+}
+
+.user-information-section .item b{
+    color: #000;
+    font-size: 12px;
+}
+
+.user-operation-section{
+    margin: 2% 2%;
+}
+
+.user-operation .icon{
+    background-color: #b42d32;
+    height: 40px;
+    width: 70px;
+    margin-right: 60px;
+    border-radius: 3px;
+}
+.user-operation .icon i{
+    color: rgba(255,255,255,.9);
+    font-size: 30px;
+}
+.user-operation .title{
+    background-color: #666;
+    color: #fff;
+    margin-right: 10px;
+    vertical-align: middle;
+    height: 40px;
+    border-radius: 3px;
+    line-height: 40px;
+}
+
+.user-operation-section .user-operation-items{
+    margin: 2% 3%;
+}
+
+.user-operation-section .item{
+    color: #205a8c;
+}
+
+.user-operation-section .item p{
+    font-size: 11px;
+}
+
+.user-operation-section .item b{
+    color: #000;
+    font-size: 12px;
+}
+
+
+.product-sale-section{
+    margin: 2% 2%;
+}
+
+.product-sale .icon{
+    background-color: #66BB6A;
+    height: 40px;
+    width: 70px;
+    margin-right: 60px;
+    border-radius: 3px;
+}
+.product-sale .icon i{
+    color: rgba(255,255,255,.9);
+    font-size: 30px;
+}
+.product-sale .title{
+    background-color: #666;
+    color: #fff;
+    margin-right: 10px;
+    vertical-align: middle;
+    height: 40px;
+    border-radius: 3px;
+    line-height: 40px;
+}
+
+.product-sale-section .product-sale-items{
+    margin: 2% 3%;
+}
+
+.product-sale-section .item{
+    color: #205a8c;
+}
+
+.product-sale-section .item p{
+    font-size: 11px;
+}
+
+.product-sale-section .item b{
+    color: #000;
+    font-size: 12px;
+}
