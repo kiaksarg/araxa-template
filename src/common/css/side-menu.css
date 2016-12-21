@@ -1,0 +1,108 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1024;
+    top: 0;
+    right: 0;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #aaa;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 33px;
+    margin-left: 50px;
+}
+
+#main1 {
+    transition: margin-left .5s;
+    /*padding: 16px;*/
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 13px;
+    }
+}
+
+
+/*offcanavs styles*/
+
+.navmenu-custom {
+    background: #f5f5f5;
+    box-shadow: 1px 0px 4px 1px #000;
+    -webkit-box-shadow: 1px 0px 4px 1px #000;
+    -moz-box-shadow: 1px 0px 4px 1px #000;
+}
+
+.navmenu-custom a {
+    color: #000;
+    font-size: 13px
+}
+
+.navmenu-nav li {
+    padding: 10px;
+}
+
+.j-nav>li {
+    border-bottom: 1px solid #E8E8E8;
+    padding: 10px;
+}
+
+.navmenu-nav li a:hover {
+    background: 0 0;
+    /*color: yellow;*/
+}
+
+.navmenu-nav li a:focus {
+    background-color: transparent;
+    /*border-right: 1px solid yellow;*/
+}
+
+.submenu-offcanvas {
+    background-color: #f5f5f5;
+}
+
+.submenu-offcanvas li a {
+    color: #000
+}
+
+.submenu-offcanvas li a:focus {
+    background: 0 0;
+    /*color: yellow;*/
+}
+
+.badge-offcanvas {
+    /*background-color: yellow;*/
+    color: #000;
+    margin-right: 20px;
+}
+
+.j-nav {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
