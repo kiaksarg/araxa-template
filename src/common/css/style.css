@@ -608,14 +608,22 @@ input:after {
 /*offcanavs styles*/
 
 .navmenu-custom {
-    background-color: #eeeff1;
-    box-shadow: 1px 0px 8px 1px #000;
-    -webkit-box-shadow: 1px 0px 8px 1px #000;
-    -moz-box-shadow: 1px 0px 8px 1px #000;
+    background: #fff;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
 }
 
 .navmenu-custom a {
     color: #000
+}
+
+.navmenu-nav li {
+    padding: 10px;
+}
+
+.j-nav>li {
+    border-bottom: 1px solid #E8E8E8;
+    padding: 10px;
 }
 
 .navmenu-nav li a:hover {
@@ -629,7 +637,7 @@ input:after {
 }
 
 .submenu-offcanvas {
-    background-color: #eeeff1;
+    background-color: #fff;
 }
 
 .submenu-offcanvas li a {
@@ -648,12 +656,13 @@ input:after {
 }
 
 .j-nav {
+    padding-right: 0;
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .form-group-custom {
         padding-top: 5px;
         margin-right: 0px;
