@@ -72,12 +72,20 @@ a:hover {
 
 .header-custom {
     color: #7f848f;
-    padding: 1px 0 0;
+    padding: 15px 0 0;
 }
 
 .main-header {
     min-height: 98px;
     background: white;
+}
+
+.search-section{
+    margin-top: 15px;
+}
+
+.logo-section{
+    margin-top: 15px;
 }
 
 .banner {
