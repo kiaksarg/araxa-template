@@ -1,0 +1,19 @@
+.container-fluid{
+    padding-bottom: 20px;
+}
+.content{
+    background-color: #fff;
+    margin: 0 5%;
+    border-radius: 5px;
+    padding: 2% 2%;
+
+}
+
+.title{
+    color: #0070c0;
+    font-size: 16px;
+}
+
+.text{
+    font-size: 14px;
+}
