@@ -102,8 +102,6 @@ a:hover {
     border: none;
 }
 
-
-
 .text-multi-row {
     line-height: 160%;
 }
@@ -224,7 +222,7 @@ a:hover {
     background-color: #9da3b1;
 }
 
-.button-search a{
+.button-search a {
     color: #fff;
 }
 
@@ -530,40 +528,42 @@ a:hover {
     color: #000;
 }
 
-.modal-header{
+.modal-header {
     background-color: #f0f1f2;
 }
 
-
-.breadcrumb-custom{
+.breadcrumb-custom {
     margin: 0 5%;
     border-radius: 5px;
 }
-.breadcrumb{
+
+.breadcrumb {
     background-color: #fff;
 }
 
-.breadcrumb > li + li:before {
+.breadcrumb>li+li:before {
     color: #ccc;
     content: "\f0d9";
     font-family: FontAwesome;
     padding: 0 5px;
 }
 
-.no-padding-margin{
+.no-padding-margin {
     padding: 0px;
     margin: 0px;
 }
 
-.no-padding{
+.no-padding {
     padding: 0px !important;
 }
 
-.no-margin{
+.no-margin {
     margin: 0px;
 }
 
+
 /*custom radio button*/
+
 input[type='radio']:after {
     width: 20px;
     height: 20px;
@@ -593,9 +593,69 @@ input[type='radio']:checked:after {
     border: 8px solid #2196f3;
     cursor: pointer;
 }
-.radio.disabled label,input{
+
+.radio.disabled label,
+input {
     cursor: default !important;
 }
-.radio.disabled label,input:after{
+
+.radio.disabled label,
+input:after {
     cursor: default !important;
+}
+
+
+/*offcanavs styles*/
+
+.navmenu-custom {
+    background-color: #eeeff1;
+    box-shadow: 1px 0px 8px 1px #000;
+    -webkit-box-shadow: 1px 0px 8px 1px #000;
+    -moz-box-shadow: 1px 0px 8px 1px #000;
+}
+
+.navmenu-custom a {
+    color: #000
+}
+
+.navmenu-nav li a:hover {
+    background: 0 0;
+    /*color: yellow;*/
+}
+
+.navmenu-nav li a:focus {
+    background-color: transparent;
+    /*border-right: 1px solid yellow;*/
+}
+
+.submenu-offcanvas {
+    background-color: #eeeff1;
+}
+
+.submenu-offcanvas li a {
+    color: #000
+}
+
+.submenu-offcanvas li a:focus {
+    background: 0 0;
+    /*color: yellow;*/
+}
+
+.badge-offcanvas {
+    /*background-color: yellow;*/
+    color: #000;
+    margin-right: 20px;
+}
+
+.j-nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .form-group-custom {
+        padding-top: 5px;
+        margin-right: 0px;
+    }
 }
