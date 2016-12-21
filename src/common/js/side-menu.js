@@ -2,7 +2,7 @@ $('.oc-nav').click(function() {
     if ($(mySidenav).attr('value') == 'opened') {
         $(mySidenav).attr('value', 'closed');
         document.getElementById("mySidenav").style.width = "0";
-        // document.getElementById("main").style.marginRight = "0";
+        // document.getElementById("main").style.marginRight = "0px";
     } else {
         $(mySidenav).attr('value', 'opened');
         document.getElementById("mySidenav").style.width = "250px";
