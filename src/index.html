@@ -96,7 +96,13 @@
 
                     </td>
                     <td>
-                        <span style="cursor:pointer" class="oc-nav hidden-md hidden-lg"><i class="fa fa-bars navbar-toggle icon-bars"></i> </span>
+                        <!--<span style="cursor:pointer" class="oc-nav hidden-md hidden-lg"><i class="fa fa-bars navbar-toggle icon-bars"></i> </span>-->
+                        <span id="MenuIcon" style="cursor:pointer" class="container oc-nav hidden-md hidden-lg" onclick="respChangeStyle(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </span>
+
                         <!--<div class="hidden-md hidden-lg">
                             <a href="#" class="hvr-underline-from-center" data-toggle="offcanvas" data-target="#mycanvas" data-canvas="body">
                                 <i class="fa fa-bars navbar-toggle icon-bars"></i>
@@ -2088,7 +2094,7 @@
     <i class="fa fa-chevron-circle-up btn btn-info scroll-to-top" style="display: none"></i>
     <!--off canvas menu-->
     <nav id="mySidenav" value="closed" class="j-nav navmenu-custom sidenav nav-closed">
-        <a href="javascript:void(0)" class="closebtn oc-nav">&times;
+        <a href="javascript:void(0)" onclick="respChangeStyle(this)" class="closebtn oc-nav">&times;
         <ul class="j-nav navmenu-nav" data-hover="dropdown" data-animations="zoomIn fadeInRight zoomIn fadeInLeft">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">لوازم‌تحریر &nbsp;<span class="fa fa-angle-down"></span> </a>

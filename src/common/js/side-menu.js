@@ -12,3 +12,10 @@ $('.oc-nav').click(function() {
     // or if you don't care about changing the button text, simply:
     $('#myotherdiv').slideToggle();
 });
+
+function respChangeStyle(x) {
+    document.getElementById("MenuIcon").classList.toggle("change");
+
+
+
+}
